@@ -16,7 +16,7 @@ def generate_caption(image):
 
     # Generate caption
     response = model.generate_content(
-        [img, "caption the image for social media post with catchy lines."]
+        [img, "Generate a caption suitable for a travel blog or post."]
     )
     
     # Extract caption
